@@ -26,7 +26,7 @@ public class User implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
 	@NotEmpty
@@ -110,18 +110,6 @@ public class User implements Serializable {
 	}
 
 	public void setBirthday(Date birthday) {
-		this.birthday = birthday;
-	}
-
-	public User() {
-	}
-
-	public User(String fullname, String username, String password, String email, String cpf, Date birthday) {
-		this.fullname = fullname;
-		this.username = username;
-		this.password = password;
-		this.email = email;
-		this.cpf = cpf;
 		this.birthday = birthday;
 	}
 

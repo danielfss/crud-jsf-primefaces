@@ -74,11 +74,15 @@
 			
 			<p:ajax event="rowUnselect" update="frm:toolbar" />
 			
+			<p:column headerText="ID" sortBy="#{user.id}" width="40">
+				<h:outputText value="#{user.id}" />
+			</p:column>
+			
 			<p:column headerText="Nome completo" sortBy="#{user.fullname}">
 				<h:outputText value="#{user.fullname}" />
 			</p:column>
 			
-			<p:column headerText="Nome de usuário">
+			<p:column headerText="Nome de usuário" sortBy="#{user.username}">
 				<h:outputText value="#{user.username}" />
 			</p:column>
 			
@@ -91,7 +95,9 @@
 			</p:column>
 			
 			<p:column headerText="Data de nascimento">
-				<h:outputText value="#{user.birthday}" />
+				<h:outputText value="#{user.birthday}">
+					<f:convertDateTime pattern="dd/MM/yyyy"/>
+				</h:outputText>
 			</p:column>
 		</p:dataTable>
 		

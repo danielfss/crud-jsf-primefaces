@@ -1,3 +1,10 @@
-insert into user (id, fullname, username, password, cpf, email, birthday) values (1, 'Fulano da Silva', 'fulano', '12345678', '843.755.503-99',  'fulano@hotmail.com', '2009-03-02');
-insert into user (id, fullname, username, password, cpf, email, birthday) values (2, 'Beltrano Oliveira', 'beltrano', '12345678', '475.322.340-02',  'beltrano@gmail.com', '2000-07-10');
-insert into user (id, fullname, username, password, cpf, email, birthday) values (3, 'Ciclano Santos', 'fulano', '12345678', '462.121.730-52',  'fulano@hotmail.com', '1995-10-05');
+insert into user (id, fullname, username, password, cpf, email, birthday) values (1, 'Fulano da Silva', 'fulano', '12345678', '843.755.503-99', 'fulano@hotmail.com', '2009-03-02');
+insert into user (id, fullname, username, password, cpf, email, birthday) values (2, 'Beltrano Oliveira', 'beltrano', '12345678', '475.322.340-02', 'beltrano@gmail.com', '2000-07-15');
+insert into user (id, fullname, username, password, cpf, email, birthday) values (3, 'Ciclano Santos', 'ciclano', '12345678', '462.121.730-52', 'ciclano@yahoo.com.br', '1995-10-05');
+insert into user (id, fullname, username, password, cpf, email, birthday) values (4, 'Neymar Junior', 'neymarjr', '12345678', '422.864.880-02', 'neymar@hotmail.com', '1992-02-05');
+insert into user (id, fullname, username, password, cpf, email, birthday) values (5, 'Richarlison', 'richarlison', '12345678', '533.901.280-85', 'richarlison@gmail.com', '1997-05-10');
+insert into user (id, fullname, username, password, cpf, email, birthday) values (6, 'Vinicius Junior', 'vinijr', '12345678', '072.916.140-40',  'vinijr@yahoo.com.br', '2000-07-12');
+insert into user (id, fullname, username, password, cpf, email, birthday) values (7, 'Raphinha', 'raphinha', '12345678', '454.348.900-43', 'raphinha@hotmail.com', '1992-02-05');
+insert into user (id, fullname, username, password, cpf, email, birthday) values (8, 'Antony', 'antony', '12345678', '868.333.350-79', 'antony@gmail.com', '2000-02-24');
+insert into user (id, fullname, username, password, cpf, email, birthday) values (9, 'Rodrygo', 'rodrygo', '12345678', '617.769.460-81', 'rodrygo@yahoo.com.br', '2001-01-09');
+insert into user (id, fullname, username, password, cpf, email, birthday) values (10, 'Gabriel Jesus', 'gabrieljesus', '12345678', '553.495.610-06', 'gjesus@yahoo.com.br', '1997-04-03');

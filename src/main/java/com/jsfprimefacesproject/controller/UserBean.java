@@ -52,6 +52,7 @@ public class UserBean implements Serializable {
 		messages.info("Usuário salvo com sucesso!");
 
 		RequestContext.getCurrentInstance().update(Arrays.asList("frm:usersDataTable", "frm:messages"));
+		System.out.println(user.toString());
 	}
 
 	public void excluir() {

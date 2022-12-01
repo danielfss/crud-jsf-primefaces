@@ -43,7 +43,5 @@
 	<welcome-file-list>
 		<welcome-file>index.xhtml</welcome-file>
 		<welcome-file>users.xhtml</welcome-file>
-		<welcome-file>GestaoEmpresas.xhtml</welcome-file>
-		<welcome-file>AjudaGestaoEmpresas.xhtml</welcome-file>
 	</welcome-file-list>
 </web-app>
